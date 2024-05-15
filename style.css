@@ -1,0 +1,161 @@
+/* Reset de estilos para todos os elementos */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+  padding: 2em;
+  background-color: #c8c8c8;
+}
+
+/* Estilos para o contêiner principal */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para a seção de links */
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14em;
+  gap: 4em;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+/* Estilos para a lista de links */
+.links ul {
+  display: flex;
+  gap: 2em;
+}
+
+/* Estilos para os itens da lista de links */
+.links li {
+  list-style: none;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #23aed8;
+  transition: 0.2s ease opacity;
+  cursor: pointer;
+}
+
+/* Estilos para os itens da lista de links quando passados por cima */
+.links li:hover {
+  opacity: 0.8;
+}
+
+/* Estilos para os links */
+.links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para a seção 'Sobre' e 'Formações' */
+.about,
+.formações {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 520px;
+  margin-top: 12em;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+/* Estilos para os títulos 'Sobre' e 'Formações' */
+.about h1,
+.formações h1 {
+  font-size: 2.5em;
+}
+
+/* Estilos para os parágrafos 'Sobre' e 'Formações' */
+.about p,
+.formações p {
+  text-align: justify;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Estilos para o contêiner do formulário de contato */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff8080;
+}
+
+/* Estilos para o título do formulário de contato */
+.container h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Estilos para o formulário de contato */
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para os grupos de formulários */
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Estilos para as etiquetas dos campos do formulário */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* Estilos para os campos de entrada de texto e área de texto */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilos para remover o foco dos campos de entrada */
+textarea:focus,
+input:focus,
+select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+/* Estilos para o botão de envio do formulário */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.1s ease opacity;
+}
+
+/* Estilos para o botão de envio do formulário quando passado por cima */
+button:hover {
+  opacity: 0.75;
+}
