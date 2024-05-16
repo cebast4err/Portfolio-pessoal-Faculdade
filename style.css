@@ -17,6 +17,36 @@ main {
   align-items: center;
   justify-content: center;
 }
+/* Estilos para o o header/nav dos projetos */
+header,
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Estilos para o nav */
+nav {
+  background-color: rgb(246, 246, 246);
+  height: 50px;
+  padding: 25px;
+  border-radius: 10px;
+}
+/* Estilos abaixo para as ul/li/a do nav */
+nav ul {
+  display: flex;
+  gap: 2em;
+}
+nav ul li {
+  list-style: none;
+  transition: 0.2s ease color;
+}
+nav ul li a:hover {
+  color: #007bff;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
 
 /* Estilos para a seção de links */
 .links {
@@ -67,7 +97,7 @@ main {
   align-items: center;
   justify-content: center;
   width: 520px;
-  margin-top: 12em;
+  margin-top: 7em;
   background-color: #fff;
   padding: 25px;
   border-radius: 10px;
@@ -95,7 +125,7 @@ main {
   padding: 20px;
   border: none;
   border-radius: 5px;
-  background-color: #ff8080;
+  background-color: #007bff;
 }
 
 /* Estilos para o título do formulário de contato */
@@ -147,8 +177,8 @@ select:focus {
 /* Estilos para o botão de envio do formulário */
 button {
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border: none;
   border-radius: 3px;
   cursor: pointer;
